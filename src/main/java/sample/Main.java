@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         val loader = new FXMLLoader(
-                Main.class.getResource("/SearchController.fxml"));
+                Main.class.getResource("/sample.fxml"));
         val page = loader.load();
         val scene = new Scene((AnchorPane) page);
 
